@@ -7,8 +7,11 @@ const listadedestinos = new Array(
     `São Paulo`,
     `Rio de Janeiro`
 )
-listadedestinos.push(`Curitiba`) // Adicionando um item na lista
 
-console.log(`Destinos possíveis`)
+listadedestinos.push(`Curitiba`) // Adicionando um item na lista
+console.log(`Destinos possíveis:`)
 // console.log(salvador, saopaulo, riodejaneiro)
 console.log(listadedestinos)
+
+listadedestinos.splice(1, 1) // splice deleta itens de listas (primeiro número é de onde você quer começar, segundo numero é quantos numeros você quer continuar deletar)
+console.log(listadedestinos[1], ", ", listadedestinos[0])
