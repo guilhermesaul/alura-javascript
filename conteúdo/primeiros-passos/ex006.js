@@ -14,4 +14,4 @@ console.log(`Destinos possíveis:`)
 console.log(listadedestinos)
 
 listadedestinos.splice(1, 1) // splice deleta itens de listas (primeiro número é de onde você quer começar, segundo numero é quantos numeros você quer continuar deletar)
-console.log(listadedestinos[1], ", ", listadedestinos[0])
+console.log(listadedestinos[1], ", ", listadedestinos[0]) 
